@@ -4,18 +4,17 @@
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
 
-  <!-- 3 secondary cardinals (S/E/W) — GOLD, fat, drawn first (underneath) -->
-  <path d="M72 106 L79 88 L72 70 L65 88 Z" fill="#E8B64C"/>
-  <path d="M108 70 L90 63 L72 70 L90 77 Z" fill="#E8B64C"/>
-  <path d="M36 70 L54 77 L72 70 L54 63 Z" fill="#E8B64C"/>
-  <!-- North: elongated arrow, sharper, extends above circle ring -->
-  <path d="M72 20 L76 50 L72 70 L68 50 Z" fill="#E8B64C"/>
+  <!-- Cream intercardinals (NE/SE/SW/NW) — drawn FIRST (underneath) -->
+  <path d="M97 45 L86 58 L72 70 L83 54 Z" fill="#F6F1E7"/>
+  <path d="M97 95 L86 82 L72 70 L83 86 Z" fill="#F6F1E7"/>
+  <path d="M47 95 L58 82 L72 70 L61 86 Z" fill="#F6F1E7"/>
+  <path d="M47 45 L58 58 L72 70 L61 54 Z" fill="#F6F1E7"/>
 
-  <!-- 4 intercardinal diamonds — CREAM, on top -->
-  <path d="M97 45 L89 62 L72 70 L80 53 Z" fill="#F6F1E7"/>
-  <path d="M97 95 L89 78 L72 70 L80 87 Z" fill="#F6F1E7"/>
-  <path d="M47 95 L55 78 L72 70 L64 87 Z" fill="#F6F1E7"/>
-  <path d="M47 45 L55 62 L72 70 L64 53 Z" fill="#F6F1E7"/>
+  <!-- Gold cardinals (N/S/E/W) — drawn ON TOP -->
+  <path d="M72 34 L82 52 L72 70 L62 52 Z" fill="#E8B64C"/>
+  <path d="M72 106 L82 88 L72 70 L62 88 Z" fill="#E8B64C"/>
+  <path d="M108 70 L90 60 L72 70 L90 80 Z" fill="#E8B64C"/>
+  <path d="M36 70 L54 80 L72 70 L54 60 Z" fill="#E8B64C"/>
 
   <!-- Wordmark -->
   <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
