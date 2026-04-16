@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commonwealth IRL — Email Signature</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1B2A4A; line-height: 1.5; }
+  h1 { font-family: Georgia, serif; font-size: 28px; margin: 0 0 4px; }
+  h1 .accent { color: #D4A843; }
+  h2 { font-family: Georgia, serif; font-size: 18px; margin: 32px 0 12px; color: #4A5568; }
+  .sub { color: #718096; margin: 0 0 24px; font-size: 15px; }
+  .preview { border: 1px solid #e2e8f0; border-radius: 8px; padding: 28px; margin: 0 0 20px; background: #fff; }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn { background: #1B2A4A; color: #fff; border: none; padding: 12px 22px; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; font-family: inherit; }
+  .btn:hover { background: #2d3f5e; }
+  .btn.copied { background: #38a169; }
+  .btn.secondary { background: #718096; }
+  .btn.secondary:hover { background: #5a6578; }
+  .instructions { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px 24px; margin-top: 28px; font-size: 14px; }
+  .instructions ol { padding-left: 22px; margin: 8px 0; }
+  .instructions li { margin: 6px 0; }
+  code { background: #edf2f7; padding: 2px 6px; border-radius: 3px; font-size: 13px; font-family: 'SF Mono', Menlo, monospace; }
+  .note { color: #718096; font-size: 13px; margin-top: 12px; font-style: italic; }
+  .rule { height: 2px; background: #D4A843; width: 60px; margin: 0 0 20px; }
+</style>
+</head>
+<body>
+  <h1>Commonwealth <span class="accent">IRL</span></h1>
+  <div class="rule"></div>
+  <p class="sub">Email signature generator — copy, paste into Gmail, done.</p>
+
+  <h2>Preview</h2>
+  <div class="preview" id="preview"><!-- injected --></div>
+
+  <div class="btns">
+    <button class="btn" id="copyRich">Copy Signature</button>
+    <button class="btn secondary" id="copyHtml">Copy Raw HTML</button>
+  </div>
+
+  <div class="instructions">
+    <h3 style="margin-top:0;font-family:Georgia,serif;color:#4A5568;">Install in Gmail</h3>
+    <ol>
+      <li>Click <strong>Copy Signature</strong> above</li>
+      <li>Open Gmail as <code>matthew@commonwealthirl.org</code></li>
+      <li><strong>Settings</strong> (⚙️) → <strong>See all settings</strong> → <strong>General</strong></li>
+      <li>Scroll to <strong>Signature</strong> → click <strong>+ Create new</strong> → name it <code>card</code></li>
+      <li>Click in the signature text box and press <code>⌘V</code> to paste</li>
+      <li>Set both <strong>Signature defaults</strong> dropdowns to <code>card</code></li>
+      <li>Scroll down and click <strong>Save Changes</strong></li>
+    </ol>
+    <p class="note">Gmail re-hosts the logo and icon on its own servers when you save, so the signature works forever even if this site goes down.</p>
+  </div>
+
+<script>
+  const BASE = location.origin;
+
+  const SIGNATURE_HTML =
+    '<table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, Helvetica, sans-serif; color: #333; border-collapse: collapse;">' +
+      '<tr>' +
+        '<td style="vertical-align: top; padding-right: 20px; padding-bottom: 0;">' +
+          '<img src="' + BASE + '/assets/logo-navy-pin.png" width="120" height="38" alt="Commonwealth IRL" style="display:block; width:120px; height:auto; border:0;">' +
+        '</td>' +
+        '<td style="vertical-align: top; padding-top: 0;">' +
+          '<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">' +
+            '<tr><td style="font-size:22px; font-weight:bold; color:#4A5568; line-height:1.2; padding-bottom:1px; font-family:Georgia, serif;">Matthew Allaire</td></tr>' +
+            '<tr><td style="font-size:14px; color:#718096; line-height:1.5; font-family:Arial, Helvetica, sans-serif;">Executive Director</td></tr>' +
+            '<tr><td style="font-size:14px; color:#4A5568; line-height:1.5; padding-bottom:10px; font-family:Arial, Helvetica, sans-serif;">Commonwealth IRL</td></tr>' +
+            '<tr><td>' +
+              '<a href="https://www.linkedin.com/in/matthew-allaire-95004a257/" style="text-decoration:none; display:inline-block;">' +
+                '<img src="' + BASE + '/assets/linkedin-icon.png" width="24" height="24" alt="LinkedIn" style="display:block; width:24px; height:24px; border:0;">' +
+              '</a>' +
+            '</td></tr>' +
+          '</table>' +
+        '</td>' +
+      '</tr>' +
+    '</table>';
+
+  document.getElementById('preview').innerHTML = SIGNATURE_HTML;
+
+  function flashCopied(btn, label) {
+    const original = btn.textContent;
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 1800);
+  }
+
+  document.getElementById('copyRich').addEventListener('click', async function() {
+    try {
+      const htmlBlob = new Blob([SIGNATURE_HTML], { type: 'text/html' });
+      const textBlob = new Blob([SIGNATURE_HTML], { type: 'text/plain' });
+      await navigator.clipboard.write([new ClipboardItem({ 'text/html': htmlBlob, 'text/plain': textBlob })]);
+      flashCopied(this);
+    } catch (err) {
+      await navigator.clipboard.writeText(SIGNATURE_HTML);
+      flashCopied(this);
+    }
+  });
+
+  document.getElementById('copyHtml').addEventListener('click', async function() {
+    await navigator.clipboard.writeText(SIGNATURE_HTML);
+    flashCopied(this);
+  });
+</script>
+</body>
+</html>

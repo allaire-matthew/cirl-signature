@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 150">
+  <path d="M52 6C28 6 8 26 8 50C8 82 52 118 52 118S96 82 96 50C96 26 76 6 52 6Z" fill="#1B2A4A"/>
+  <circle cx="52" cy="46" r="12" fill="#D4A843"/>
+  <text x="130" y="56" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#1B2A4A">Commonwealth</text>
+  <text x="130" y="96" font-family="Georgia,serif" font-size="36" font-weight="400" fill="#D4A843">IRL.</text>
+</svg>
