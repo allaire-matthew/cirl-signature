@@ -4,21 +4,21 @@
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
 
-  <!-- 4 intercardinal needles (NE, SE, SW, NW) - shorter, cream -->
-  <path d="M93 49 L72 70 L68 66 Z" fill="#F6F1E7"/>
-  <path d="M93 91 L72 70 L68 74 Z" fill="#F6F1E7"/>
-  <path d="M51 91 L72 70 L76 74 Z" fill="#F6F1E7"/>
-  <path d="M51 49 L72 70 L76 66 Z" fill="#F6F1E7"/>
+  <!-- 4 intercardinal needles (NE, SE, SW, NW) - cream, stop short of center, diagonal -->
+  <path d="M93 49 L77 67 L75 65 Z" fill="#F6F1E7"/>
+  <path d="M93 91 L77 73 L75 75 Z" fill="#F6F1E7"/>
+  <path d="M51 91 L67 73 L69 75 Z" fill="#F6F1E7"/>
+  <path d="M51 49 L67 67 L69 65 Z" fill="#F6F1E7"/>
 
-  <!-- 4 cardinal needles - longer, reaching circle edge -->
+  <!-- 4 cardinal needles - longer, also stop short of center -->
   <!-- South -->
-  <path d="M72 106 L75 70 L69 70 Z" fill="#F6F1E7"/>
+  <path d="M72 106 L74 74 L70 74 Z" fill="#F6F1E7"/>
   <!-- East -->
-  <path d="M108 70 L72 73 L72 67 Z" fill="#F6F1E7"/>
+  <path d="M108 70 L76 68 L76 72 Z" fill="#F6F1E7"/>
   <!-- West -->
-  <path d="M36 70 L72 67 L72 73 Z" fill="#F6F1E7"/>
-  <!-- North (gold, drawn last, on top) -->
-  <path d="M72 34 L75 70 L69 70 Z" fill="#E8B64C"/>
+  <path d="M36 70 L68 72 L68 68 Z" fill="#F6F1E7"/>
+  <!-- North (gold) -->
+  <path d="M72 34 L74 66 L70 66 Z" fill="#E8B64C"/>
 
   <!-- Wordmark -->
   <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
