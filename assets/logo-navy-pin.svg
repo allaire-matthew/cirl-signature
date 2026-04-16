@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 460" width="1120" height="460">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 420" width="1120" height="420">
   <!-- Navy pin teardrop (shifted down for vertical centering) -->
-  <path d="M 120 70 C 60 70 12 118 12 180 C 12 250 60 300 120 410 C 180 300 228 250 228 180 C 228 118 180 70 120 70 Z" fill="#1B2A4A"/>
+  <path d="M 120 50 C 60 50 12 98 12 160 C 12 230 60 280 120 390 C 180 280 228 230 228 160 C 228 98 180 50 120 50 Z" fill="#1B2A4A"/>
   <!-- Cream ring -->
-  <circle cx="120" cy="180" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
+  <circle cx="120" cy="160" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
   <!-- 16-point gold compass star -->
-  <polygon points="120,108 125.7,166.1 148.3,151.7 133.9,174.3 192,180 133.9,185.7 148.3,208.3 125.7,193.9 120,252 114.3,193.9 91.7,208.3 106.1,185.7 48,180 106.1,174.3 91.7,151.7 114.3,166.1" fill="#D4A843"/>
+  <polygon points="120,88 125.7,146.1 148.3,131.7 133.9,154.3 192,160 133.9,165.7 148.3,188.3 125.7,173.9 120,232 114.3,173.9 91.7,188.3 106.1,165.7 48,160 106.1,154.3 91.7,131.7 114.3,146.1" fill="#D4A843"/>
 
   <!-- Tier 1: personal info -->
   <text x="270" y="110" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#4A5568">Matthew Allaire</text>
-  <!-- LinkedIn badge next to name -->
-  <g transform="translate(775, 73)">
-    <rect width="42" height="42" rx="6" fill="#0A66C2"/>
-    <text x="21" y="31" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="26" fill="#fff" text-anchor="middle">in</text>
+
+  <!-- LinkedIn circle badge -->
+  <g transform="translate(775, 77)">
+    <circle cx="21" cy="21" r="19.5" fill="none" stroke="#4A5568" stroke-width="1.5"/>
+    <text x="21" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#1B2A4A" text-anchor="middle">in</text>
   </g>
+
+  <!-- Phone circle badge -->
+  <g transform="translate(830, 77)">
+    <circle cx="21" cy="21" r="19.5" fill="none" stroke="#4A5568" stroke-width="1.5"/>
+    <path transform="translate(9, 9) scale(1.2)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
+  </g>
+
   <text x="270" y="160" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#718096">Executive Director</text>
-  <text x="270" y="200" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#718096">857-274-8952</text>
 
   <!-- Tier 2: brand wordmark — identical treatment; only color differs -->
-  <text x="270" y="300" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
-  <text x="270" y="400" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
+  <text x="270" y="260" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
+  <text x="270" y="360" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
 </svg>
