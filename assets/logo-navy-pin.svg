@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 460" width="1120" height="460">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 420" width="1120" height="420">
   <!-- Navy pin teardrop (shifted down for vertical centering) -->
   <path d="M 120 50 C 60 50 12 98 12 160 C 12 230 60 280 120 390 C 180 280 228 230 228 160 C 228 98 180 50 120 50 Z" fill="#1B2A4A"/>
   <!-- Cream ring -->
@@ -11,6 +11,6 @@
   <text x="270" y="155" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#718096">Executive Director</text>
 
   <!-- Tier 2: brand wordmark — identical treatment; only color differs -->
-  <text x="270" y="310" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
-  <text x="270" y="410" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
+  <text x="270" y="260" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
+  <text x="270" y="360" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
 </svg>
