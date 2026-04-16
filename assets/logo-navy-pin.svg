@@ -4,11 +4,12 @@
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
 
-  <!-- 4 cardinal diamonds — GOLD, fat, drawn first (underneath) -->
-  <path d="M72 34 L79 52 L72 70 L65 52 Z" fill="#E8B64C"/>
+  <!-- 3 secondary cardinals (S/E/W) — GOLD, fat, drawn first (underneath) -->
   <path d="M72 106 L79 88 L72 70 L65 88 Z" fill="#E8B64C"/>
   <path d="M108 70 L90 63 L72 70 L90 77 Z" fill="#E8B64C"/>
   <path d="M36 70 L54 77 L72 70 L54 63 Z" fill="#E8B64C"/>
+  <!-- North: elongated arrow, sharper, extends above circle ring -->
+  <path d="M72 20 L76 50 L72 70 L68 50 Z" fill="#E8B64C"/>
 
   <!-- 4 intercardinal diamonds — CREAM, on top -->
   <path d="M97 45 L89 62 L72 70 L80 53 Z" fill="#F6F1E7"/>
