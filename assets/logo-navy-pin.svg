@@ -3,10 +3,12 @@
   <path d="M72 10 C40 10 12 38 12 70 C12 112 72 192 72 192 S132 112 132 70 C132 38 104 10 72 10 Z" fill="#1B2A4A"/>
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
-  <!-- Compass star: vertical (N-S) points -->
-  <path d="M72 36 L77 70 L72 104 L67 70 Z" fill="#F6F1E7"/>
-  <!-- Compass star: horizontal (E-W) points -->
+  <!-- Compass star: South point (ivory) -->
+  <path d="M72 104 L77 70 L67 70 Z" fill="#F6F1E7"/>
+  <!-- Compass star: East/West horizontal (ivory) -->
   <path d="M38 70 L72 75 L106 70 L72 65 Z" fill="#F6F1E7"/>
+  <!-- Compass star: North point (gold) -->
+  <path d="M72 36 L77 70 L67 70 Z" fill="#D4A843"/>
   <!-- Center gold dot -->
   <circle cx="72" cy="70" r="3.8" fill="#D4A843"/>
   <!-- Wordmark -->
