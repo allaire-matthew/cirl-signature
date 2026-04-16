@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 360" width="1120" height="360">
   <!-- Navy pin teardrop (from final-site Home.tsx — canonical) -->
   <path d="M 120 0 C 60 0 12 48 12 110 C 12 180 60 230 120 340 C 180 230 228 180 228 110 C 228 48 180 0 120 0 Z" fill="#1B2A4A"/>
   <!-- Cream ring -->
