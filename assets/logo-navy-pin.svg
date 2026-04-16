@@ -1,28 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
-  <!-- Pin teardrop -->
-  <path d="M72 10 C40 10 12 38 12 70 C12 112 72 192 72 192 S132 112 132 70 C132 38 104 10 72 10 Z" fill="#1B2A4A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340">
+  <!-- Navy pin teardrop (from final-site Home.tsx — canonical) -->
+  <path d="M 120 0 C 60 0 12 48 12 110 C 12 180 60 230 120 340 C 180 230 228 180 228 110 C 228 48 180 0 120 0 Z" fill="#1B2A4A"/>
   <!-- Cream ring -->
-  <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
-
-  <!-- 8-point asymmetric gold star -->
-  <!-- N (longest) -->
-  <path d="M72 34 L74 52 L72 70 L70 52 Z" fill="#E8B64C"/>
-  <!-- S (longest, symmetric with N) -->
-  <path d="M72 106 L74 88 L72 70 L70 88 Z" fill="#E8B64C"/>
-  <!-- E (medium) -->
-  <path d="M94 70 L83 68.5 L72 70 L83 71.5 Z" fill="#E8B64C"/>
-  <!-- W (medium) -->
-  <path d="M50 70 L61 71.5 L72 70 L61 68.5 Z" fill="#E8B64C"/>
-  <!-- NE (shortest) -->
-  <path d="M83 59 L79 66 L72 70 L76 63 Z" fill="#E8B64C"/>
-  <!-- SE (shortest) -->
-  <path d="M83 81 L76 77 L72 70 L79 74 Z" fill="#E8B64C"/>
-  <!-- SW (shortest) -->
-  <path d="M61 81 L68 74 L72 70 L65 77 Z" fill="#E8B64C"/>
-  <!-- NW (shortest) -->
-  <path d="M61 59 L65 65 L72 70 L68 63 Z" fill="#E8B64C"/>
+  <circle cx="120" cy="110" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
+  <!-- 16-point polygon compass star (from canonical logo) -->
+  <polygon points="120,38 125.7,96.1 148.3,81.7 133.9,104.3 192,110 133.9,115.7 148.3,138.3 125.7,123.9 120,182 114.3,123.9 91.7,138.3 106.1,115.7 48,110 106.1,104.3 91.7,81.7 114.3,96.1" fill="#D4A843"/>
 
   <!-- Wordmark -->
-  <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
-  <text x="176" y="144" font-family="Georgia, serif" font-size="42" font-weight="400" fill="#D4A843">IRL.</text>
+  <text x="270" y="140" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#1B2A4A" letter-spacing="8">COMMONWEALTH</text>
+  <text x="270" y="230" font-family="Georgia, serif" font-size="72" font-weight="400" fill="#D4A843">IRL.</text>
 </svg>
