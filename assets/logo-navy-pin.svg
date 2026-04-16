@@ -6,7 +6,7 @@
   <!-- 16-point polygon compass star (from canonical logo) -->
   <polygon points="120,38 125.7,96.1 148.3,81.7 133.9,104.3 192,110 133.9,115.7 148.3,138.3 125.7,123.9 120,182 114.3,123.9 91.7,138.3 106.1,115.7 48,110 106.1,104.3 91.7,81.7 114.3,96.1" fill="#D4A843"/>
 
-  <!-- Wordmark -->
-  <text x="270" y="140" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#1B2A4A" letter-spacing="8">COMMONWEALTH</text>
-  <text x="270" y="230" font-family="Georgia, serif" font-size="72" font-weight="400" fill="#D4A843">IRL.</text>
+  <!-- Wordmark — same Georgia serif, same size/weight/tracking for both words; only color differs -->
+  <text x="270" y="160" font-family="Georgia, serif" font-size="78" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
+  <text x="270" y="260" font-family="Georgia, serif" font-size="78" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
 </svg>
