@@ -56,13 +56,13 @@
   const BASE = location.origin + location.pathname.replace(/\/signature\/?$/, '');
 
   // Icon overlay positions computed from the SVG: viewBox 1120x420, image rendered at 380px wide (height ~143px)
-  // LinkedIn badge at viewBox (745, 58) size 64x64 → left=253, top=20, 22x22 display px
-  // Phone badge    at viewBox (825, 58) size 64x64 → left=280, top=20, 22x22 display px
+  // LinkedIn badge at viewBox (735, 45) size 88x88 → left=249, top=15, 30x30 display px
+  // Phone badge    at viewBox (835, 45) size 88x88 → left=283, top=15, 30x30 display px
   const SIGNATURE_HTML =
     '<div style="position:relative; display:inline-block; line-height:0;">' +
-      '<img src="' + BASE + '/assets/logo-navy-pin.png?v=8" width="380" height="143" alt="Matthew Allaire, Executive Director — Commonwealth IRL" style="display:block; width:380px; height:auto; border:0;">' +
-      '<a href="https://www.linkedin.com/in/matthew-allaire-95004a257/" title="LinkedIn" style="position:absolute; left:253px; top:20px; width:22px; height:22px; display:block; text-decoration:none;"></a>' +
-      '<a href="tel:+18572748952" title="Phone" style="position:absolute; left:280px; top:20px; width:22px; height:22px; display:block; text-decoration:none;"></a>' +
+      '<img src="' + BASE + '/assets/logo-navy-pin.png?v=9" width="380" height="143" alt="Matthew Allaire, Executive Director — Commonwealth IRL" style="display:block; width:380px; height:auto; border:0;">' +
+      '<a href="https://www.linkedin.com/in/matthew-allaire-95004a257/" title="LinkedIn" style="position:absolute; left:249px; top:15px; width:30px; height:30px; display:block; text-decoration:none;"></a>' +
+      '<a href="tel:+18572748952" title="Phone" style="position:absolute; left:283px; top:15px; width:30px; height:30px; display:block; text-decoration:none;"></a>' +
     '</div>';
 
   document.getElementById('preview').innerHTML = SIGNATURE_HTML;
