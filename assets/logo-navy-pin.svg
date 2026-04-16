@@ -9,8 +9,6 @@
   <path d="M72 104 L77 70 L67 70 Z" fill="#F6F1E7"/>
   <!-- North point (gold) — bold, elongated, on top -->
   <path d="M72 30 L80 70 L64 70 Z" fill="#E8B64C"/>
-  <!-- Center gold dot -->
-  <circle cx="72" cy="70" r="4.2" fill="#D4A843"/>
   <!-- Wordmark -->
   <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
   <text x="176" y="144" font-family="Georgia, serif" font-size="42" font-weight="400" fill="#D4A843">IRL.</text>
