@@ -1,12 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 360" width="1120" height="360">
-  <!-- Navy pin teardrop (from final-site Home.tsx — canonical) -->
-  <path d="M 120 0 C 60 0 12 48 12 110 C 12 180 60 230 120 340 C 180 230 228 180 228 110 C 228 48 180 0 120 0 Z" fill="#1B2A4A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 1120 460" width="1120" height="460">
+  <!-- Navy pin teardrop (shifted down for vertical centering) -->
+  <path d="M 120 50 C 60 50 12 98 12 160 C 12 230 60 280 120 390 C 180 280 228 230 228 160 C 228 98 180 50 120 50 Z" fill="#1B2A4A"/>
   <!-- Cream ring -->
-  <circle cx="120" cy="110" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
-  <!-- 16-point polygon compass star (from canonical logo) -->
-  <polygon points="120,38 125.7,96.1 148.3,81.7 133.9,104.3 192,110 133.9,115.7 148.3,138.3 125.7,123.9 120,182 114.3,123.9 91.7,138.3 106.1,115.7 48,110 106.1,104.3 91.7,81.7 114.3,96.1" fill="#D4A843"/>
+  <circle cx="120" cy="160" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
+  <!-- 16-point gold compass star -->
+  <polygon points="120,88 125.7,146.1 148.3,131.7 133.9,154.3 192,160 133.9,165.7 148.3,188.3 125.7,173.9 120,232 114.3,173.9 91.7,188.3 106.1,165.7 48,160 106.1,154.3 91.7,131.7 114.3,146.1" fill="#D4A843"/>
 
-  <!-- Wordmark — same Georgia serif, same size/weight/tracking for both words; only color differs -->
-  <text x="270" y="160" font-family="Georgia, serif" font-size="78" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
-  <text x="270" y="260" font-family="Georgia, serif" font-size="78" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
+  <!-- Tier 1: personal info -->
+  <text x="270" y="110" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#4A5568">Matthew Allaire</text>
+  <text x="270" y="155" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#718096">Executive Director</text>
+
+  <!-- Tier 2: brand wordmark — identical treatment; only color differs -->
+  <text x="270" y="310" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
+  <text x="270" y="410" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
 </svg>
