@@ -35,7 +35,6 @@
 
   <div class="btns">
     <button class="btn" id="copyRich">Copy Signature</button>
-    <button class="btn secondary" id="copyHtml">Copy Raw HTML</button>
   </div>
 
   <div class="instructions">
@@ -97,10 +96,6 @@
     }
   });
 
-  document.getElementById('copyHtml').addEventListener('click', async function() {
-    await navigator.clipboard.writeText(SIGNATURE_HTML);
-    flashCopied(this);
-  });
 </script>
 </body>
 </html>

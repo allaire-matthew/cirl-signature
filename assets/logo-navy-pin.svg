@@ -4,29 +4,21 @@
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
 
-  <!-- Intercardinal (NE/SE/SW/NW) - shorter cream triangles, drawn first (underneath) -->
-  <path d="M72 70 L96 46 L82 58 Z" fill="#F6F1E7" opacity="0.9"/>
-  <path d="M72 70 L96 46 L84 60 Z" fill="#F6F1E7"/>
-  <path d="M72 70 L96 94 L84 80 Z" fill="#F6F1E7"/>
-  <path d="M72 70 L96 94 L82 82 Z" fill="#F6F1E7" opacity="0.9"/>
-  <path d="M72 70 L48 94 L60 80 Z" fill="#F6F1E7"/>
-  <path d="M72 70 L48 94 L62 82 Z" fill="#F6F1E7" opacity="0.9"/>
-  <path d="M72 70 L48 46 L62 58 Z" fill="#F6F1E7" opacity="0.9"/>
-  <path d="M72 70 L48 46 L60 60 Z" fill="#F6F1E7"/>
+  <!-- 4 intercardinal needles (NE, SE, SW, NW) - shorter, cream -->
+  <path d="M93 49 L72 70 L68 66 Z" fill="#F6F1E7"/>
+  <path d="M93 91 L72 70 L68 74 Z" fill="#F6F1E7"/>
+  <path d="M51 91 L72 70 L76 74 Z" fill="#F6F1E7"/>
+  <path d="M51 49 L72 70 L76 66 Z" fill="#F6F1E7"/>
 
-  <!-- Cardinal points (S, E, W) - longer cream diamonds -->
+  <!-- 4 cardinal needles - longer, reaching circle edge -->
   <!-- South -->
-  <path d="M72 70 L78 70 L72 106 L66 70 Z" fill="#F6F1E7"/>
+  <path d="M72 106 L75 70 L69 70 Z" fill="#F6F1E7"/>
   <!-- East -->
-  <path d="M72 70 L72 76 L108 70 L72 64 Z" fill="#F6F1E7"/>
+  <path d="M108 70 L72 73 L72 67 Z" fill="#F6F1E7"/>
   <!-- West -->
-  <path d="M72 70 L72 64 L36 70 L72 76 Z" fill="#F6F1E7"/>
-
-  <!-- North - gold needle, longest, drawn last on top -->
-  <path d="M72 70 L78 70 L72 30 L66 70 Z" fill="#E8B64C"/>
-
-  <!-- Center hub (small cream ring) -->
-  <circle cx="72" cy="70" r="3" fill="#F6F1E7"/>
+  <path d="M36 70 L72 67 L72 73 Z" fill="#F6F1E7"/>
+  <!-- North (gold, drawn last, on top) -->
+  <path d="M72 34 L75 70 L69 70 Z" fill="#E8B64C"/>
 
   <!-- Wordmark -->
   <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
