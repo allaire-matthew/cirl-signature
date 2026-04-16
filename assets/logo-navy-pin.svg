@@ -9,21 +9,21 @@
   <!-- Tier 1: personal info -->
   <text x="270" y="110" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#4A5568">Matthew Allaire</text>
 
-  <!-- LinkedIn circle badge -->
-  <g transform="translate(775, 77)">
-    <circle cx="21" cy="21" r="19.5" fill="none" stroke="#4A5568" stroke-width="1.5"/>
-    <text x="21" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#1B2A4A" text-anchor="middle">in</text>
+  <!-- LinkedIn circle badge (64x64) -->
+  <g transform="translate(745, 58)">
+    <circle cx="32" cy="32" r="30" fill="none" stroke="#4A5568" stroke-width="2"/>
+    <text x="32" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#1B2A4A" text-anchor="middle">in</text>
   </g>
 
-  <!-- Phone circle badge -->
-  <g transform="translate(830, 77)">
-    <circle cx="21" cy="21" r="19.5" fill="none" stroke="#4A5568" stroke-width="1.5"/>
-    <path transform="translate(9, 9) scale(1.2)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
+  <!-- Phone circle badge (64x64) -->
+  <g transform="translate(825, 58)">
+    <circle cx="32" cy="32" r="30" fill="none" stroke="#4A5568" stroke-width="2"/>
+    <path transform="translate(14, 14) scale(1.8)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
   </g>
 
-  <text x="270" y="160" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#718096">Executive Director</text>
+  <text x="270" y="175" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#718096">Executive Director</text>
 
   <!-- Tier 2: brand wordmark — identical treatment; only color differs -->
-  <text x="270" y="260" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
-  <text x="270" y="360" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
+  <text x="270" y="280" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
+  <text x="270" y="380" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
 </svg>
