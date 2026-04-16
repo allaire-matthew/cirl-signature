@@ -4,17 +4,20 @@
   <!-- Circular compass seal outline -->
   <circle cx="72" cy="70" r="36" fill="none" stroke="#F6F1E7" stroke-width="1.5"/>
 
-  <!-- 4 cardinal needles — GOLD, long, thin, reach the ring, drawn first -->
-  <path d="M72 36 L75 53 L72 70 L69 53 Z" fill="#E8B64C"/>
-  <path d="M72 104 L75 87 L72 70 L69 87 Z" fill="#E8B64C"/>
-  <path d="M106 70 L89 67 L72 70 L89 73 Z" fill="#E8B64C"/>
-  <path d="M38 70 L55 73 L72 70 L55 67 Z" fill="#E8B64C"/>
+  <!-- 8-point compass rose, all gold, all thin diamonds meeting at center -->
+  <!-- Intercardinals (shortest) drawn first -->
+  <path d="M82 60 L78 66 L72 70 L76 64 Z" fill="#E8B64C"/>
+  <path d="M82 80 L78 74 L72 70 L76 76 Z" fill="#E8B64C"/>
+  <path d="M62 80 L68 76 L72 70 L66 74 Z" fill="#E8B64C"/>
+  <path d="M62 60 L66 66 L72 70 L68 64 Z" fill="#E8B64C"/>
 
-  <!-- 4 intercardinal needles — GOLD, medium length, thin diamonds -->
-  <path d="M87 55 L82 65 L72 70 L77 60 Z" fill="#E8B64C"/>
-  <path d="M87 85 L77 80 L72 70 L82 75 Z" fill="#E8B64C"/>
-  <path d="M57 85 L67 80 L72 70 L62 75 Z" fill="#E8B64C"/>
-  <path d="M57 55 L62 65 L72 70 L67 60 Z" fill="#E8B64C"/>
+  <!-- Cardinals S/E/W (medium length) -->
+  <path d="M72 98 L74 84 L72 70 L70 84 Z" fill="#E8B64C"/>
+  <path d="M100 70 L86 68 L72 70 L86 72 Z" fill="#E8B64C"/>
+  <path d="M44 70 L58 72 L72 70 L58 68 Z" fill="#E8B64C"/>
+
+  <!-- North cardinal (longest, reaches circle edge) -->
+  <path d="M72 34 L75 52 L72 70 L69 52 Z" fill="#E8B64C"/>
 
   <!-- Wordmark -->
   <text x="176" y="86" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1B2A4A" letter-spacing="5">COMMONWEALTH</text>
