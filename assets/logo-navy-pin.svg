@@ -21,8 +21,8 @@
     <path transform="translate(22, 22) scale(3.0)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
   </g>
 
-  <!-- ED right under name; nudged slightly lower for breathing room -->
-  <text x="270" y="180" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#718096">Executive Director</text>
+  <!-- ED right under name; nudged further down -->
+  <text x="270" y="205" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#718096">Executive Director</text>
 
   <!-- Tier 2: brand wordmark -->
   <text x="270" y="320" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
