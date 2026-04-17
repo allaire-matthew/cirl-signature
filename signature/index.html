@@ -55,14 +55,14 @@
   // Works on both Cloudflare Pages (origin root) and GitHub Pages (subpath)
   const BASE = location.origin + location.pathname.replace(/\/signature\/?$/, '');
 
-  // Icon overlay positions computed from the SVG: viewBox 1120x460, image rendered at 380px wide (height ~156px)
-  // LinkedIn badge at viewBox (750, 90) size 110x110 → left=254, top=30, 37x37 display px
-  // Phone badge    at viewBox (870, 90) size 110x110 → left=295, top=30, 37x37 display px
+  // Icon overlay positions computed from the SVG: viewBox -10 60 1120 350, image rendered at 380px wide (height ~119px)
+  // LinkedIn badge at viewBox (750, 90) size 110x110 → left=258, top=10, 37x37 display px
+  // Phone badge    at viewBox (870, 90) size 110x110 → left=298, top=10, 37x37 display px
   const SIGNATURE_HTML =
     '<div style="position:relative; display:inline-block; line-height:0;">' +
-      '<img src="' + BASE + '/assets/logo-navy-pin.png?v=14" width="380" height="156" alt="Matthew Allaire, Executive Director — Commonwealth IRL" style="display:block; width:380px; height:auto; border:0;">' +
-      '<a href="https://www.linkedin.com/in/matthew-allaire-95004a257/" title="LinkedIn" style="position:absolute; left:254px; top:30px; width:37px; height:37px; display:block; text-decoration:none;"></a>' +
-      '<a href="tel:+18572748952" title="Phone" style="position:absolute; left:295px; top:30px; width:37px; height:37px; display:block; text-decoration:none;"></a>' +
+      '<img src="' + BASE + '/assets/logo-navy-pin.png?v=15" width="380" height="119" alt="Matthew Allaire, Executive Director — Commonwealth IRL" style="display:block; width:380px; height:auto; border:0;">' +
+      '<a href="https://www.linkedin.com/in/matthew-allaire-95004a257/" title="LinkedIn" style="position:absolute; left:258px; top:10px; width:37px; height:37px; display:block; text-decoration:none;"></a>' +
+      '<a href="tel:+18572748952" title="Phone" style="position:absolute; left:298px; top:10px; width:37px; height:37px; display:block; text-decoration:none;"></a>' +
     '</div>';
 
   document.getElementById('preview').innerHTML = SIGNATURE_HTML;
