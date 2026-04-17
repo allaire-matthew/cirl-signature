@@ -6,23 +6,23 @@
   <!-- 16-point gold compass star -->
   <polygon points="120,108 125.7,166.1 148.3,151.7 133.9,174.3 192,180 133.9,185.7 148.3,208.3 125.7,193.9 120,252 114.3,193.9 91.7,208.3 106.1,185.7 48,180 106.1,174.3 91.7,151.7 114.3,166.1" fill="#D4A843"/>
 
-  <!-- Tier 1: personal info -->
-  <text x="270" y="120" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#4A5568">Matthew Allaire</text>
+  <!-- Tier 1: personal info — name slightly larger than ED -->
+  <text x="270" y="120" font-family="Georgia, serif" font-size="60" font-weight="700" fill="#4A5568">Matthew Allaire</text>
 
-  <!-- LinkedIn circle badge (110x110) — center y=150 sits midway between name baseline (120) and ED baseline (180) -->
-  <g transform="translate(735, 95)">
+  <!-- LinkedIn circle badge (110x110) — center y=145, midway between name baseline (120) and ED baseline (170) -->
+  <g transform="translate(750, 90)">
     <circle cx="55" cy="55" r="53" fill="none" stroke="#4A5568" stroke-width="3"/>
     <text x="55" y="75" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="58" fill="#1B2A4A" text-anchor="middle">in</text>
   </g>
 
-  <!-- Phone circle badge (110x110) — center y=150 -->
-  <g transform="translate(855, 95)">
+  <!-- Phone circle badge (110x110) — center y=145 -->
+  <g transform="translate(870, 90)">
     <circle cx="55" cy="55" r="53" fill="none" stroke="#4A5568" stroke-width="3"/>
     <path transform="translate(22, 22) scale(3.0)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
   </g>
 
-  <!-- ED right under name; nudged further down -->
-  <text x="270" y="205" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#718096">Executive Director</text>
+  <!-- ED right under name, slightly smaller, tight gap -->
+  <text x="270" y="170" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#718096">Executive Director</text>
 
   <!-- Tier 2: brand wordmark -->
   <text x="270" y="320" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
