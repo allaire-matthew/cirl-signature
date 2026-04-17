@@ -9,20 +9,20 @@
   <!-- Tier 1: personal info -->
   <text x="270" y="120" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#4A5568">Matthew Allaire</text>
 
-  <!-- LinkedIn circle badge (88x88) — top aligned with cap-top of name letters -->
-  <g transform="translate(735, 81)">
-    <circle cx="44" cy="44" r="42" fill="none" stroke="#4A5568" stroke-width="2.5"/>
-    <text x="44" y="60" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="46" fill="#1B2A4A" text-anchor="middle">in</text>
+  <!-- LinkedIn circle badge (110x110) — center y=150 sits midway between name baseline (120) and ED baseline (180) -->
+  <g transform="translate(735, 95)">
+    <circle cx="55" cy="55" r="53" fill="none" stroke="#4A5568" stroke-width="3"/>
+    <text x="55" y="75" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="58" fill="#1B2A4A" text-anchor="middle">in</text>
   </g>
 
-  <!-- Phone circle badge (88x88) — top aligned with cap-top of name letters -->
-  <g transform="translate(835, 81)">
-    <circle cx="44" cy="44" r="42" fill="none" stroke="#4A5568" stroke-width="2.5"/>
-    <path transform="translate(18, 18) scale(2.4)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
+  <!-- Phone circle badge (110x110) — center y=150 -->
+  <g transform="translate(855, 95)">
+    <circle cx="55" cy="55" r="53" fill="none" stroke="#4A5568" stroke-width="3"/>
+    <path transform="translate(22, 22) scale(3.0)" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" fill="#1B2A4A"/>
   </g>
 
-  <!-- ED right under name; font-size sized so baseline aligns with badge bottom (y=169) -->
-  <text x="270" y="169" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#718096">Executive Director</text>
+  <!-- ED right under name; nudged slightly lower for breathing room -->
+  <text x="270" y="180" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#718096">Executive Director</text>
 
   <!-- Tier 2: brand wordmark -->
   <text x="270" y="320" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
