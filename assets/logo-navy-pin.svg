@@ -1,18 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 60 1020 350" width="1020" height="350">
-  <!-- Navy pin teardrop -->
-  <path d="M 120 70 C 60 70 12 118 12 180 C 12 250 60 300 120 410 C 180 300 228 250 228 180 C 228 118 180 70 120 70 Z" fill="#1B2A4A"/>
-  <!-- Cream ring -->
-  <circle cx="120" cy="180" r="78" fill="none" stroke="#F6F1E7" stroke-width="2.5"/>
-  <!-- 16-point gold compass star -->
-  <polygon points="120,108 125.7,166.1 148.3,151.7 133.9,174.3 192,180 133.9,185.7 148.3,208.3 125.7,193.9 120,252 114.3,193.9 91.7,208.3 106.1,185.7 48,180 106.1,174.3 91.7,151.7 114.3,166.1" fill="#D4A843"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 230" width="820" height="230">
   <!-- Name -->
-  <text x="270" y="120" font-family="Georgia, serif" font-size="60" font-weight="700" fill="#4A5568">Matthew Allaire</text>
+  <text x="0" y="58" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#1B2A4A">Matthew Allaire</text>
 
-  <!-- Executive Director -->
-  <text x="270" y="185" font-family="Arial, Helvetica, sans-serif" font-size="48" fill="#718096">Executive Director</text>
+  <!-- Title -->
+  <text x="0" y="108" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#4A5568">Executive Director</text>
+
+  <!-- Gold rule divider -->
+  <rect x="0" y="132" width="64" height="3" fill="#D4A843"/>
 
   <!-- Brand wordmark -->
-  <text x="270" y="290" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#1B2A4A">COMMONWEALTH</text>
-  <text x="270" y="390" font-family="Georgia, serif" font-size="74" font-weight="500" letter-spacing="3" fill="#D4A843">IRL</text>
+  <text x="0" y="210" font-family="Georgia, serif" font-size="60" font-weight="500" letter-spacing="1" fill="#1B2A4A">Commonwealth <tspan fill="#D4A843">IRL</tspan></text>
 </svg>
