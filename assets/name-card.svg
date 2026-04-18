@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="500" height="150">
+  <!-- Name -->
+  <text x="0" y="58" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#1B2A4A">Matthew Allaire</text>
+
+  <!-- Title -->
+  <text x="0" y="108" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#4A5568">Executive Director</text>
+
+  <!-- Gold rule divider -->
+  <rect x="0" y="132" width="64" height="3" fill="#D4A843"/>
+</svg>
